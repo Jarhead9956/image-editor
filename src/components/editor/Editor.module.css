@@ -1,0 +1,123 @@
+.wraper {
+    width: calc(100% - 40px);
+    /* height: 100%; */
+    padding: 20px;
+}
+
+.wraper h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 60%; */
+}
+
+.filters {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 40%;
+    padding: 20px;
+}
+
+.filters .filter-text {
+    margin-bottom: 20px;
+}
+
+.filters h3 {
+    font-size: 16px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.options button {
+    width: calc(100% / 2 - 4px);
+    margin-bottom: 8px;
+}
+
+.filters .info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.filters .info h3 {
+    font-size: 16px;
+}
+
+.filters input {
+    width: 100%;
+}
+
+.filters .rotate button {
+    margin:10px 8px 0 0;
+}
+
+.image {
+    width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.actions .reset {
+    background-color: transparent;
+    color: grey;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.actions .image-controls .choose-btn {
+    margin-right: 10px;
+    background-color: #5B646B;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.actions .save {
+    background-color: #4662C6;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.btn {
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.active {
+    background-color: #4662C6;
+    color: white;
+}
